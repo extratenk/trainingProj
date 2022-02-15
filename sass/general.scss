@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/PTSans-Regular.woff") format("woff2"), url("../fonts/PTSans-Regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "PostNoBillsJaffna";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/PostNoBillsJaffna-Bold.woff2") format("woff2"), url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+}
+
+body {
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
+}
+
+.wrapper {
+  width: 1109px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
