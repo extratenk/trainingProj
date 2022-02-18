@@ -1,0 +1,53 @@
+.collection2018 {
+	height: 600px;
+	display: flex;
+
+	& .collection2018__background {
+		
+		max-width: 880px;
+	}
+
+	& .collection2018__description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+
+
+		& .collection2018__title {
+			font-family: "PlayfairDisplay";
+			font-size: 36px;
+			text-align: center;
+      text-transform: uppercase;
+			margin-bottom: 80px;
+			position: relative;
+
+			&::after {
+				position: absolute;
+			  content: "";
+		  	top: 69px;
+			  left: 86px;
+			  width: 120px;
+			  border: 1px solid #fff;
+			}
+		}
+
+		& .collection2018__text {
+			font-family: "PTSans";
+			font-size: 14px;
+			text-align: center;
+			max-width: 470px;
+			margin-bottom: 60px;
+		}
+
+		& .collection2018__catalog {
+			font-family: "PTSans";
+			font-size: 14px;
+			padding: 28px 12px;
+			border: 1px solid #fff;
+			margin-bottom: 100px;
+		}
+	}
+
+}

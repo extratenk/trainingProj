@@ -1,0 +1,32 @@
+.brands {
+	background: #0f0f0f;
+	padding: 60px 405px 80px;
+
+	& .brands__title {
+		font-family: "PlayfairDisplay";
+		font-size: 36px;
+		text-align: center;
+    text-transform: uppercase;
+		position: relative;	
+		margin-bottom: 80px;
+
+
+		&::after {
+			position: absolute;
+			content: "";
+			top: 69px;
+			left: 45%;
+			width: 120px;
+			border: 1px solid #fff;
+		}
+	}
+
+
+	& .brands__brand-list {
+		display: flex;
+
+		& .brands__sample {
+
+		}
+	}
+}

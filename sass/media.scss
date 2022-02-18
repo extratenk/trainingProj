@@ -1,0 +1,104 @@
+.media {
+	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background: url(/images/footer.png);
+	background-repeat: no-repeat;
+
+	& .wrapper {
+
+		display: flex;
+	justify-content: space-between;
+
+	& .media__about {
+		display: flex;
+		flex-direction: column;
+		max-width: 350px;
+		
+
+	& .media__about-title{
+		font-family: PlayfairDisplay;
+		font-size: 24px;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+	}
+
+	& .media__about-text {
+		font-family: PTSans;
+		font-size: 14px;
+	}
+  }
+
+	& .media__categories {
+		display: flex;
+		
+		flex-direction: column;
+		max-width: 310px;
+
+		& .media__categories-title {
+			font-family: PlayfairDisplay;
+		  font-size: 24px;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+		}
+
+		& .media__categories-box {
+
+			display: flex;
+			flex-wrap: wrap;
+
+		& .media__categories-sample {
+			font-family: PTSans;
+			font-size: 14px;
+			background: #0F0F0F;
+			padding: 10px 20px;
+			text-align: center;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+	}
+	}
+
+	& .media__mail {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		max-width: 350px;
+		
+		& .media__mail-title{
+			font-family: PlayfairDisplay;
+		  font-size: 24px;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+		}
+
+		& .media__mail-text {
+			font-family: PTSans;
+		  font-size: 14px;
+		}
+
+		& .media__mail-input {
+			font-family: PTSans;
+		  font-size: 14px;
+			background: rgba(255, 255, 255, 0.4);
+			padding: 10px 20px;
+			color: #fff;
+			outline: none;
+
+			&::placeholder {
+				color: #fff;
+			}
+		}
+
+		& .media__mail-button {
+			font-family: PTSans;
+		  font-size: 14px;
+			background: #0F0F0F;
+			padding: 10px 20px;
+			border: none;
+			outline: none;
+			color: #fff;
+		}
+	}
+}
+}

@@ -1,0 +1,52 @@
+.new {
+	
+  padding-top: 120px;
+	padding-bottom: 150px;
+	
+
+  & .new__title{
+		font-family: "PlayfairDisplay";
+		font-size: 36px;
+		text-align: center;
+    text-transform: uppercase;
+		margin-bottom: 120px;
+		position: relative;
+
+		&::after {
+			position: absolute;
+			content: "";
+			top: 69px;
+			left: 47%;
+			width: 120px;
+			border: 1px solid #fff;
+		}
+	}
+
+	.new__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+  & .new__box-offer{
+	width: 260px;
+	margin: 40px 0;
+	
+	& .new__box-img {
+		background: #191B1C;
+		padding: 55px 23px;
+		margin-bottom: 25px;
+	}
+
+	& .new__box-subtitle{
+		margin-bottom: 10px;
+		font-family: PlayfairDisplay;
+		font-size: 18px;	
+	}
+
+	& .new__box-price{
+		font-family: PlayfairDisplay;
+		font-size: 16px;
+	}
+}
+	}
+}
